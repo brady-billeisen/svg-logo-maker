@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "test": "jest --watchAll"
+  },
   "dependencies": {
     "inquirer": "^8.2.4",
     "svg-builder": "^2.0.0"
