@@ -1,5 +1,9 @@
 module.exports = [
     {
+        name: 'name',
+        message: 'What would you like to name your file? (Please include the file extension):',
+    },
+    {
         name: 'text',
         message: 'Enter up to three characters for the logo (Text should have at least one, but up to three characters):',
         validate: function (input) {

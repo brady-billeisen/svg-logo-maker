@@ -9,7 +9,7 @@ prompt(questions)
     .then((answers) => {
         const svgContent = shapes[answers.shape](answers);
 
-        fs.writeFile('logo.svg', svgContent, (err) => {
+        fs.writeFile(answers.name, svgContent, (err) => {
             if (err) throw err;
             console.log('Logo created successfully!');
         });
