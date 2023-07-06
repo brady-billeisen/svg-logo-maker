@@ -13,7 +13,7 @@ prompt(questions)
 
         fs.writeFile(answers.name, svgContent, (err) => {
             if (err) throw err;
-            console.log('Logo created successfully!');
+            console.log(`${answers.name} has been created!`);
         });
     })
     .catch((error) => {
