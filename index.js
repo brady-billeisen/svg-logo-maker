@@ -6,9 +6,9 @@ inquirer
     .prompt([
         {
             name: 'text',
-            message: 'Enter up to three characters for the logo:',
+            message: 'Enter up to three characters for the logo (Text should have at least one, but up to three characters):',
             validate: function (input) {
-                return input.length <= 3 || 'Text should have up to three characters.';
+                return input.length <= 3 && input.length >= 1 || 'Text should have at least one, but up to three characters. Please try again.';
             },
         },
         {
@@ -27,7 +27,6 @@ inquirer
         },
     ])
     .then((answers) => {
-        // Call the generateLogo function with the user-provided input
         generateLogo(answers);
     })
     .catch((error) => {
