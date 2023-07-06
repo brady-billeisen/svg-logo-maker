@@ -1,7 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const shapes = require('./shapes');
-const questions = require('./questions');
+const shapes = require('./lib/shapes');
+const questions = require('./lib/questions');
 
 const prompt = inquirer.createPromptModule();
 
