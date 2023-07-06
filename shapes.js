@@ -12,11 +12,11 @@ module.exports = {
     },
     triangle: (answers) => {
         return `
-<svg version="1.1" width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
 
 <polygon points="150,50 250,250 50,250" fill="${answers.shapeColor}" />
       
-<text x="150" y="210" font-size="60" text-anchor="middle" fill="${answers.textColor}">${answers.text}</text>
+<text x="150" y="180" font-size="50" text-anchor="middle" fill="${answers.textColor}">${answers.text}</text>
       
 </svg>
         `.trim();
