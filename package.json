@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest"
   },
   "dependencies": {
     "inquirer": "^8.2.4",
