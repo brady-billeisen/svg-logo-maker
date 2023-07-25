@@ -22,7 +22,7 @@ This application is licensed under the MIT license.
 ## Contributions
 I am not taking any contributions at this time.
 ## Visuals
-[SVG Logo Maker Demo](https://www.awesomescreenshot.com/video/19355049)
+[SVG Logo Maker Demo](https://www.awesomescreenshot.com/video/19355049?key=6b2ebb549d9bfc052735da14c7291fa1)
 ## Tests
 There are no tests for the application at this time.
 ## Questions
